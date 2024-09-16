@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 function App() {
   const [theme, setTheme] = useState(null);
 
+  
   useEffect(() => {
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
       setTheme('dark');
