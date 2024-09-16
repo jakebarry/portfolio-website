@@ -7,7 +7,7 @@ function Contact() {
         <div className='flex justify-center items-center'>
             <form
                 action='https://getform.io/f/blljxyeb'
-                onSubmit={() => alert('Submitted!')}
+                // onSubmit={() => alert('Submitted!')}
                 method='POST'
                 className='flex flex-col w-full md:w-7/12'>
                     <Title>Contact</Title>
