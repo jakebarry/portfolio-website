@@ -16,5 +16,12 @@ export default [
         imgUrl: '/assets/react_todo.png',
         stack: ['React', 'Vite', 'HTML & CSS'],
         link:'https://react-todo-jb.netlify.app'
-    }
+    },
+    {
+        title: 'NASA Astrology Picture of the Day',
+        imgUrl: '/assets/nasa_logo.png',
+        stack: ['React', 'Vite', 'HTML & CSS'],
+        link: 'https://nasa-apod-jb.netlify.app'
+    },
+
 ]
