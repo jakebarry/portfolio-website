@@ -19,7 +19,7 @@ export default [
     },
     {
         title: 'NASA Astrology Picture of the Day',
-        imgUrl: '/assets/nasa_logo.png',
+        imgUrl: '/assets/nasa-logo.png',
         stack: ['React', 'Vite', 'HTML & CSS'],
         link: 'https://nasa-apod-jb.netlify.app'
     },
