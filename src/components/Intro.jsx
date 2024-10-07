@@ -5,10 +5,10 @@ function Intro() {
         <div className='flex items-center justify-center flex-col text-center pt-20 pb-6'>
             <h1 className='text-4xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold'>Jake Barry</h1>
             <div className='cursor-pointer text-2xl flex gap-8 mb-2 '>
-                <a className='duration-200 hover:mb-[5px] hover:mt-[-5px] hover:shadow-lg ' href='https://github.com/jakebarry'>
+                <a className='duration-200 hover:mb-[5px] hover:mt-[-5px] hover:shadow-lg ' href='https://github.com/jakebarry' target="_blank">
                     <i className="fa-brands fa-github "></i>
                 </a>
-                <a className='duration-200 hover:mb-[5px] hover:mt-[-5px] hover:shadow-lg ' href='https://linkedin.com/in/jake-barry-2a9b33239'>
+                <a className='duration-200 hover:mb-[5px] hover:mt-[-5px] hover:shadow-lg ' href='https://linkedin.com/in/jake-barry-2a9b33239' target="_blank">
                     <i className="fa-brands fa-linkedin"></i>
                 </a>
             </div>
