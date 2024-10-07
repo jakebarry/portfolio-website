@@ -1,8 +1,15 @@
+function currentDate() {
+    var now = new Date();
+    var bDay = new Date(2024, 6, 1);
+    var elapsedT = now - bDay;
+    return Math.ceil(elapsedT*3.8026E-10)
+}
+
 export default [
     {
         year: 'Today',
         title: 'Software Developer / AI Trainer',
-        duration: '4 months',
+        duration: currentDate() + ' months',
         details: 'As a Software Developer at DataAnnotation, I am focused on enhancing end-user interactions by evaluating and improving AI-generated code. I also analyse and rate AI model responses using a systematic review framework. Working remotely, I contribute to the development of innovative solutions for the company.',
     },
     {
