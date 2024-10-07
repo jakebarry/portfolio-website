@@ -9,7 +9,7 @@ export default [
         title: 'React Pokédex',
         imgUrl: '/assets/pokedex.png',
         stack: ['React', 'Tailwind', 'Vite', 'PokeAPI'],
-        link: 'https://nasa-apod-jb.netlify.app'
+        link: 'https://jb-pokedex.netlify.app/'
     },
     {
         title: 'NASA Astrology Picture of the Day',
@@ -27,7 +27,7 @@ export default [
         title: 'Developer Portfolio',
         imgUrl: '/assets/portfolio.png',
         stack: ['React', 'Tailwind', 'Vite'],
-        link:'',
+        link:'https://github.com/jakebarry/portfolio-website',
     },
 
 ]
