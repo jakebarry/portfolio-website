@@ -1,41 +1,48 @@
-import React from 'react'
+import React from 'react';
 import Title from './Title';
 
 function Contact() {
-    return (
-    <div className='flex flex-col mb-10 mx-auto'>
-        <div className='flex justify-center items-center'>
-            <form
-                action='https://getform.io/f/blljxyeb'
-                // onSubmit={() => alert('Submitted!')}
-                method='POST'
-                className='flex flex-col w-full md:w-7/12'>
-                    <Title>Contact</Title>
-                    <input
-                        type='text' 
-                        name='name'
-                        placeholder='Name'
-                        className='p-2 bg-transparent border-2 rounded-md focus:outline-none'
-                    />
-                    <input
-                        type='text'
-                        name='email'
-                        placeholder='Email'
-                        className='my-2 p-2 bg-transparent border-2 rounded-md focus:outline-none'
-                    />
-                    <textarea
-                        name='message'
-                        placeholder='Message'
-                        rows='10'
-                        className='p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none'
-                    />
-                    <button type='submit' className='text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-yellow-500 to-pink-500 drop-shadow-md hover:stroke-white'>
-                        Work With Me
-                    </button>
-            </form>
-        </div>
+  return (
+    <div className='flex flex-col items-center py-12'>
+      <div className='w-full max-w-3xl'>
+        <form
+          action='https://getform.io/f/blljxyeb'
+          method='POST'
+          className='flex flex-col w-full px-4 md:px-0'
+        >
+          <Title>Contact</Title>
+
+          <input
+            type='text'
+            name='name'
+            placeholder='Your Name'
+            className='p-3 mb-4 bg-transparent border-2 border-gray-300 dark:border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 transition duration-300'
+          />
+
+          <input
+            type='email'
+            name='email'
+            placeholder='Your Email'
+            className='p-3 mb-4 bg-transparent border-2 border-gray-300 dark:border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 transition duration-300'
+          />
+
+          <textarea
+            name='message'
+            placeholder='Your Message'
+            rows='6'
+            className='p-3 mb-6 bg-transparent border-2 border-gray-300 dark:border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 transition duration-300'
+          />
+
+          <button
+            type='submit'
+            className='self-center px-8 py-3 text-base font-semibold rounded-md text-white bg-gradient-to-r from-yellow-500 to-pink-500 hover:from-yellow-600 hover:to-pink-600 transition-all duration-300 shadow-md hover:shadow-lg'
+          >
+            Work With Me
+          </button>
+        </form>
+      </div>
     </div>
-    )
+  );
 }
 
 export default Contact;
