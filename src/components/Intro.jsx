@@ -8,7 +8,7 @@ function Intro() {
                 <a className='duration-200 hover:mb-[5px] hover:mt-[-5px] hover:shadow-lg ' href='https://github.com/jakebarry' target="_blank">
                     <i className="fa-brands fa-github "></i>
                 </a>
-                <a className='duration-200 hover:mb-[5px] hover:mt-[-5px] hover:shadow-lg ' href='https://linkedin.com/in/jake-barry-2a9b33239' target="_blank">
+                <a className='duration-200 hover:mb-[5px] hover:mt-[-5px] hover:shadow-lg ' href='https://www.linkedin.com/in/jake-barry-2a9b33239/' target="_blank">
                     <i className="fa-brands fa-linkedin"></i>
                 </a>
             </div>
