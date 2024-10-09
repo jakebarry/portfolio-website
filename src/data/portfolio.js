@@ -6,7 +6,7 @@ export default [
         link:'https://github.com/jakebarry/discord-bot',
     },
     {
-        title: 'React Pokédex',
+        title: 'Pokédex',
         imgUrl: '/assets/pokedex.png',
         stack: ['React', 'Tailwind', 'Vite', 'PokeAPI'],
         link: 'https://jb-pokedex.netlify.app/'
@@ -18,7 +18,7 @@ export default [
         link: 'https://nasa-apod-jb.netlify.app'
     },
     {
-        title: 'React Todo List',
+        title: 'Todo List',
         imgUrl: '/assets/react_todo.png',
         stack: ['React', 'Vite', 'HTML & CSS'],
         link:'https://react-todo-jb.netlify.app'
