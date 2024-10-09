@@ -9,7 +9,6 @@ import Publications from './components/Publications';
 function App() {
   const [theme, setTheme] = useState(null);
 
-
   useEffect(() => {
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
       setTheme('dark');
@@ -66,25 +65,27 @@ function App() {
 
   return (
     <>
-      <button
-        type='button'
-        onClick={handleThemeSwitch}
-        className='fixed p-2 z-10 right-20 top-4 bg-violet-300 dark:bg-orange-300 text-lg p-1 rounded-md'
-      >
-        {theme === 'dark' ? sun : moon}
-      </button>
-      <div className='bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter'>
-        <div className='max-w-5xl w-11/12 mx-auto'>
-          <Intro />
-          <Portfolio />
-          <Publications />
-          <Timeline />
-          <Contact />
-          <Footer />
+      <div className='animate-fadeIn'>
+        <button
+          type='button'
+          onClick={handleThemeSwitch}
+          className='fixed p-2 z-10 right-20 top-4 bg-violet-300 dark:bg-orange-300 text-lg p-1 rounded-md'
+        >
+          {theme === 'dark' ? sun : moon}
+        </button>
+        <div className='bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter'>
+          <div className='max-w-5xl w-11/12 mx-auto'>
+            <Intro />
+            <Portfolio />
+            <Publications />
+            <Timeline />
+            <Contact />
+            <Footer />
+          </div>
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
