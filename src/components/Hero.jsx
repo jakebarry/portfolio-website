@@ -114,11 +114,14 @@ function Hero({ scrollToPortfolio }) {
             {/* Hero content */}
             <div className="relative z-10 text-center">
                 <h1 className="text-3xl sm:text-5xl font-semibold mb-4">
-                    Hi, I'm Jake – A Full Stack Developer
+                    Hi, I'm Jake – A Software Engineer
                 </h1>
                 <p className="text-lg sm:text-lg max-w-5xl mx-auto font-light">
-                    I'm a Melbourne-based software developer with a background in mechatronics and a passion for solving real-world problems through technology. I hold a Master of Engineering in Mechatronics from the University of Melbourne, where I developed a wearable sensor system for AFL players. Currently, I work as a Software Developer at Data Annotation Tech, focusing on improving AI model performance. I have experience in front-end development, data management, and e-commerce platforms, with skills in Python, Java, JavaScript, Vue, React, and MongoDB. Connect with me!
+                    I'm a Melbourne-based developer with a background in mechatronics and a passion for solving real-world problems through technology. I hold a Master of Engineering in Mechatronics from the University of Melbourne and currently work as a Software Developer at Data Annotation Tech, focusing on improving AI model performance. I have experience in front-end development, data management, and e-commerce platforms, with skills in Python, Java, JavaScript, Vue, React, and MongoDB. Connect with me!
                 </p>
+                {/* <p className="text-lg sm:text-lg max-w-5xl mx-auto font-light">
+                    I'm a Melbourne-based software developer with a background in mechatronics and a passion for solving real-world problems through technology. I hold a Master of Engineering in Mechatronics from the University of Melbourne, where I developed a wearable sensor system for AFL players. Currently, I work as a Software Developer at Data Annotation Tech, focusing on improving AI model performance. I have experience in front-end development, data management, and e-commerce platforms, with skills in Python, Java, JavaScript, Vue, React, and MongoDB. Connect with me!
+                </p> */}
                 <div className='flex gap-8 mb-6 justify-center mt-6'>
                     <a
                         className='duration-200 transform hover:-translate-y-1 hover:shadow-lg text-gray-800 dark:text-gray-100 text-3xl'

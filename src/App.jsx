@@ -85,7 +85,7 @@ function App() {
         <div className='bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter'>
           <Hero scrollToPortfolio={scrollToPortfolio} />
           <div className='max-w-5xl w-11/12 mx-auto'>
-            <Intro />
+            {/* <Intro /> */}
             <div ref={portfolioRef}>
               <Portfolio />
             </div>
