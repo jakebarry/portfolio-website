@@ -1,13 +1,15 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import Intro from './components/Intro';
 import Timeline from './components/Timeline';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 import Publications from './components/Publications';
+import Hero from './components/Hero';
 
 function App() {
   const [theme, setTheme] = useState(null);
+  const portfolioRef = useRef(null); // Ref for projects
 
   useEffect(() => {
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
@@ -17,10 +19,6 @@ function App() {
     }
   }, []);
 
-  const handleThemeSwitch = () => {
-    setTheme(theme === 'dark' ? 'light' : 'dark');
-  };
-
   useEffect(() => {
     if (theme === 'dark') {
       document.documentElement.classList.add('dark');
@@ -28,6 +26,17 @@ function App() {
       document.documentElement.classList.remove('dark');
     }
   }, [theme]);
+
+  const handleThemeSwitch = () => {
+    setTheme(theme === 'dark' ? 'light' : 'dark');
+  };
+
+  const scrollToPortfolio = () => {
+    if (portfolioRef.current) {
+      portfolioRef.current.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+
 
   const sun = (
     <svg
@@ -74,9 +83,12 @@ function App() {
           {theme === 'dark' ? sun : moon}
         </button>
         <div className='bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter'>
+          <Hero scrollToPortfolio={scrollToPortfolio} />
           <div className='max-w-5xl w-11/12 mx-auto'>
             <Intro />
-            <Portfolio />
+            <div ref={portfolioRef}>
+              <Portfolio />
+            </div>
             <Publications />
             <Timeline />
             <Contact />

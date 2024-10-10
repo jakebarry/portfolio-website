@@ -1,33 +1,33 @@
 export default [
     {
         title: 'Discord Bot: Recipe Generator',
-        imgUrl: '/assets/discord_bot.png',
         stack: ['Python', 'Discord API', 'Website Scraping'],
         link:'https://github.com/jakebarry/discord-bot',
+        imgUrl: '/assets/discord_bot.png',
     },
     {
         title: 'Pokédex',
-        imgUrl: '/assets/pokedex.png',
         stack: ['React', 'Tailwind', 'Vite', 'PokeAPI'],
-        link: 'https://jb-pokedex.netlify.app/'
+        link: 'https://jb-pokedex.netlify.app/',
+        imgUrl: '/assets/pokedex-hover.png',
     },
     {
         title: 'NASA Astrology Picture of the Day',
-        imgUrl: '/assets/nasa-logo.png',
         stack: ['React', 'Vite', 'HTML & CSS'],
-        link: 'https://nasa-apod-jb.netlify.app'
+        link: 'https://nasa-apod-jb.netlify.app',
+        imgUrl: '/assets/nasa-hover.png',
     },
     {
         title: 'Todo List',
-        imgUrl: '/assets/react_todo.png',
         stack: ['React', 'Vite', 'HTML & CSS'],
-        link:'https://react-todo-jb.netlify.app'
+        link:'https://react-todo-jb.netlify.app',
+        imgUrl: '/assets/todo-hover.png',
     },
     {
         title: 'Developer Portfolio',
-        imgUrl: '/assets/portfolio.png',
         stack: ['React', 'Tailwind', 'Vite'],
         link:'https://github.com/jakebarry/portfolio-website',
+        imgUrl: '/assets/portfolio-hover.png',
     },
 
 ]
