@@ -124,27 +124,27 @@ function Hero({ scrollToPortfolio }) {
                 </p> */}
                 <div className='flex gap-8 mb-6 justify-center mt-6'>
                     <a
-                        className='duration-200 transform hover:-translate-y-1 hover:shadow-lg text-gray-800 dark:text-gray-100 text-3xl'
+                        className='duration-200 transform hover:-translate-y-1  text-gray-800 dark:text-gray-100 text-4xl'
                         href='https://github.com/jakebarry'
                         target='_blank'
                         rel='noopener noreferrer'
                         aria-label="GitHub"
                     >
-                        <i className='fa-brands fa-github'></i>
+                        <i className='fa-brands fa-github hover:text-indigo-500'></i>
                     </a>
                     <a
-                        className='duration-200 transform hover:-translate-y-1 hover:shadow-lg text-gray-800 dark:text-gray-100 text-3xl'
+                        className='duration-200 transform hover:-translate-y-1 text-gray-800 dark:text-gray-100 text-4xl'
                         href='https://www.linkedin.com/in/jake-barry-2a9b33239/'
                         target='_blank'
                         rel='noopener noreferrer'
                         aria-label="LinkedIn"
                     >
-                        <i className='fa-brands fa-linkedin'></i>
+                        <i className='fa-brands fa-linkedin hover:text-indigo-500'></i>
                     </a>
                 </div>
                 <a
                     href="#portfolio"
-                    className="inline-block mt-4 bg-indigo-500 text-white hover:bg-indigo-600 font-semibold py-2 px-6 rounded-full transition duration-300"
+                    className="inline-block mt-4 bg-indigo-600 text-white hover:bg-indigo-500 font-semibold py-2 px-6 rounded-full transition duration-300 transform hover:-translate-y-1"
                     onClick={scrollToPortfolio}
                 >
                     View My Work
