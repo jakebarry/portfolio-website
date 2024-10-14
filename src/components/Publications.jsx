@@ -6,7 +6,7 @@ function Publications() {
       <h2 className='text-3xl font-bold text-gray-800 dark:text-gray-100 mb-8 text-center'>
         Publications
       </h2>
-      <div className='max-w-3xl mx-auto'>
+      <div className='max-w-4xl mx-auto'>
         <h3 className='text-2xl font-semibold text-gray-800 dark:text-gray-100 mb-2'>
           Stemformatics data portal enables transcriptional benchmarking of lab-derived myeloid cells
         </h3>
