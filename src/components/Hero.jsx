@@ -113,10 +113,10 @@ function Hero({ scrollToPortfolio }) {
             /> */}
             {/* Hero content */}
             <div className="relative z-10 text-center">
-                <h1 className="text-3xl sm:text-5xl font-semibold mb-4">
+                <h1 className="text-xl sm:text-5xl font-semibold mb-4">
                     Hi, I'm Jake – A Software Engineer
                 </h1>
-                <p className="text-lg sm:text-lg max-w-5xl mx-auto font-light">
+                <p className="text-sm sm:text-lg max-w-5xl mx-auto font-light">
                     I'm a Melbourne-based developer, holding with a Master of Engineering in Mechatronics from the University of Melbourne and currently work as a Software Developer at Data Annotation Tech, focusing on improving AI model performance. I have experience in front-end development, data management, and e-commerce platforms, with skills in Python, Java, JavaScript, Vue, React, and MongoDB. Connect with me!
                 </p>
                 {/* <p className="text-lg sm:text-lg max-w-5xl mx-auto font-light">
