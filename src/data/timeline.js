@@ -22,7 +22,7 @@ export default [
         year: '2022',
         title: 'Software Engineer Research Internship',
         duration: '3 months',
-        details: 'During my internship at Stemformatics, I actively contributed to the front-end webpage redesign, improving user navigation and experience. I also implemented new data comparison functionality, enhancing data analysis capabilities. Additionally, I received an authorship commendation for a Stemformatics manuscript, highlighting my contributions to the organisation.',
+        details: 'During my internship at Stemformatics, I actively contributed to the front-end webpage redesign, improving user navigation and experience. I also implemented new data comparison functionality, enhancing data analysis capabilities. Additionally, I received an authorship for a Stemformatics manuscript, highlighting my contributions to the organisation.',
     },
     {
         year: '2020-2022',
